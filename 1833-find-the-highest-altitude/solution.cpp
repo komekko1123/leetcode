@@ -9,6 +9,6 @@ public:
         att[i+1] = high;
       } // for
 
-      return *max_element(att.begin(),att.end());;
+      return *max_element(att.begin(),att.end());
     }
 };
